@@ -12,6 +12,7 @@ const SignUpUser = () => {
 
   return (
     <form onSubmit={handleSubmit(onSubmit)}>
+         <h1>React Hook Form</h1>
       <div>
         <input {...register('firstName', { required: true })} placeholder="First Name" />
         {errors.firstName && <span>This field is required</span>}

@@ -35,6 +35,7 @@ const AddProduct = () => {
 
   return (
     <form onSubmit={handleSubmit}>
+        <h1>Product Form</h1>
       <div>
         <input name="name" value={formState.name} onChange={handleChange} placeholder="Name" />
       </div>
