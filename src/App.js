@@ -1,5 +1,6 @@
 import AddProduct from "./components/AddProduct";
 import SignUpUser from "./components/SignUpUser";
+import './App.css';
 
 function App() {
   return (
